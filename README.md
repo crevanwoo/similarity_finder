@@ -31,4 +31,4 @@ pip3 install -r requirements.txt
 
 python3 run.py
 
-###### check http://localhost:5000/
+check http://localhost:5000/
