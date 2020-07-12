@@ -1,0 +1,40 @@
+{
+    "name": "similarity-finder",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "start": "npm run dev",
+        "dev": "webpack-dev-server --progress --config webpack.dev.js",
+        "prod": "webpack --config webpack.prod.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "languagedetect": "^2.0.0",
+        "object-sizeof": "^1.6.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-infinite-scroller": "^1.2.4",
+        "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.4",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/plugin-transform-react-jsx": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/preset-react": "^7.10.4",
+        "babel-eslint": "^8.2.6",
+        "babel-loader": "^8.1.0",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "css-loader": "^3.6.0",
+        "eslint": "^7.4.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-react": "^7.20.3",
+        "node-sass": "^4.14.1",
+        "sass-loader": "^9.0.0",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-merge": "^4.2.2"
+    }
+}

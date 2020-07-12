@@ -1,0 +1,164 @@
+body {
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+.li-item,
+button,
+textarea {
+	border: 1px solid black;
+}
+
+.home-title,
+.li-item,
+form,
+header {
+	margin: 10px 40px;
+}
+
+li,
+textarea {
+	display: block;
+}
+
+header {
+	display: flex;
+	vertical-align: middle;
+	height: 60px;
+	line-height: 60px;
+
+	.home-link {
+		display: block;
+		height: 100%;
+		margin-right: 20px;
+		width: 70px;
+		text-align: center;
+		border: 1px solid black;
+		cursor: pointer;
+		font-size: 16px;
+		text-transform: uppercase;
+
+		&:hover {
+			color: green;
+			border-color: green;
+		}
+	}
+}
+
+span {
+	&.li-item {
+		display: inline-block;
+		width: auto;
+		height: 100%;
+		width: auto;
+		cursor: pointer;
+
+		&:hover {
+			color: green;
+			border-color: green;
+		}
+	}
+}
+
+.li-item {
+	min-height: 40px;
+	max-width: 100%;
+	line-height: 1.5;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid black;
+	padding: 10px 50px;
+	cursor: pointer;
+
+	b {
+		display: inline-block;
+		width: 50px;
+		text-align: right;
+		padding: 10px;
+		margin-left: -50px;
+	}
+}
+
+.li-article {
+	width: 500px;
+
+	&:hover {
+		color: green;
+		border-color: green;
+	}
+}
+
+.li-sen {
+	cursor: default;
+}
+
+.li-warning {
+	color: red;
+	border-color: red;
+}
+
+.sen-origin {
+	border-color: green;
+	margin-bottom: 40px;
+}
+
+.wrapper_article {
+	.preloader {
+		position: relative;
+		height: 100px;
+		width: 500px;
+	}
+}
+
+.preloader.preloader_inner {
+	position: static;
+}
+
+a.art-inner-link {
+	text-decoration: underline;
+
+	&:hover {
+		color: green;
+	}
+}
+
+textarea {
+	min-height: 100px;
+	max-width: 100%;
+	width: 300px;
+	resize: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+	:placeholder {
+		font-family: 'Ubuntu', sans-serif;
+	}
+}
+
+form {
+	max-width: 100%;
+	width: 500px;
+	display: flex;
+
+	div {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin: 0 15px;
+	}
+}
+
+button {
+	font-family: 'Ubuntu', sans-serif;
+	cursor: pointer;
+	padding: 10px;
+	display: inline-block;
+	width: 100px;
+	margin: 0;
+
+	&:hover {
+		color: green;
+		border-color: green;
+	}
+}

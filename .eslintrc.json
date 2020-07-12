@@ -1,0 +1,40 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true
+    },
+    "globals": {
+        "document": false,
+        "setTimeout": false,
+        "console": false,
+        "navigator": false,
+        "alert": false,
+        "process": false
+    },
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/prop-types": 0,
+        "no-console": 0,
+        "no-unused-vars": "error",
+        "no-undef": "error",
+        "operator-linebreak": [1, "after", {
+            "overrides": {
+                "?": "before",
+                ":": "before"
+            }
+        }]
+    }
+}
