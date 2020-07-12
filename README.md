@@ -4,10 +4,15 @@ The web application checks similarity between sentenses in uploaded texts. Note 
 Requirements:
 
 sqlite3
+
 python3
+
 python3-pip
+
 nodejs
+
 npm
+
 python3-venv
 
 Installation:
@@ -15,10 +20,13 @@ Installation:
 cd to folder
 
 npm install
+
 npm run prod
 
 python3 -m venv appenv
+
 source appenv/bin/activate
+
 pip3 install -r requirements.txt
 
 python3 run.py
