@@ -29,6 +29,6 @@ source appenv/bin/activate
 
 pip3 install -r requirements.txt
 
-python3 run.py
+flask run
 
 check http://localhost:5000/

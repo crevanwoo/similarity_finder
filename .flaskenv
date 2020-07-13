@@ -1,3 +1,3 @@
-FLASK_APP=similarity-finder
+FLASK_APP=flaskapp
 FLASK_ENV=development
 FLASK_DEBUG=False
